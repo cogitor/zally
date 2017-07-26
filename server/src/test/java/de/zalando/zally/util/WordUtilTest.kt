@@ -31,11 +31,25 @@ class WordUtilTest {
     fun invariableWordsPluralized() {
         assertTrue(isPlural("sheep"))
         assertTrue(isPlural("deer"))
+        assertTrue(isPlural("moose"))
+        assertTrue(isPlural("bison"))
+        assertTrue(isPlural("swine"))
+        assertTrue(isPlural("offspring"))
         assertTrue(isPlural("fish"))
+        assertTrue(isPlural("goldfish"))
+        assertTrue(isPlural("swordfish"))
+        assertTrue(isPlural("sailfish"))
         assertTrue(isPlural("cod"))
         assertTrue(isPlural("salmon"))
+        assertTrue(isPlural("trout"))
+        assertTrue(isPlural("pike"))
+        assertTrue(isPlural("bream"))
         assertTrue(isPlural("information"))
         assertTrue(isPlural("aircraft"))
+        assertTrue(isPlural("hovercraft"))
+        assertTrue(isPlural("spacecraft"))
+        assertTrue(isPlural("watercraft"))
+        assertTrue(isPlural("sailcraft"))
     }
 
     @Test
